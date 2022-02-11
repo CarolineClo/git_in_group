@@ -1,0 +1,38 @@
+@font-face {
+    font-family:Roboto ;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+  }
+
+  @font-face {
+    font-family: Didot;
+    src: url(../fonts/DidotRegular.ttf);
+}
+
+body{
+    background-color: aquamarine;
+}
+
+  
+h1 {
+    font-size: 3.052rem;
+    -webkit-text-stroke: 0.15rem black;
+    color: white;
+    font-family: "Didot", sans-serif;
+    padding: 2rem;
+    padding-left: 4rem;
+    padding-bottom: 0rem;
+    margin-top: 0;
+  }
+  
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+  margin-top: 1em;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  -webkit-text-stroke: 0.1rem black;
+}
